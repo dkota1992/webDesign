@@ -8,6 +8,16 @@ body{
     background-color:#cccece
 }
 
+.dark{
+    padding: 15px;
+    border:0;
+    color:#ffffff;
+    background: #35424b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%
+}
+
  .container{
      width:80%;
      margin:auto;
@@ -51,7 +61,7 @@ header .highlight, header .current{
 }
 header li{
     float:left;
-    display:inline;
+    display: inline;
     padding: 0 20px 0 20px;
 
 }
@@ -128,10 +138,38 @@ header a:hover{
     display: inline;
 }
 
+/*Sidebar*/
+
+aside#sidebar{
+    float:right;
+    width: 25%;
+    margin-top:100px;
+}
+
+/*Main-col article*/
+
+article#main-col{
+    float:left;
+    width: 70%;
+    margin-top: 10px;
+    text-align: justify;
+}
+
 footer{
     padding: 20px;
     margin-top: 20px;
     color:#ffffff;
     background-color: #e8491d;
     text-align: center;
+}
+
+#service-font{
+    font-size: 30px;
+}
+
+.dark p{
+    width:90%;
+}
+.dark input, .dark textarea{
+    width:90%;
 }
